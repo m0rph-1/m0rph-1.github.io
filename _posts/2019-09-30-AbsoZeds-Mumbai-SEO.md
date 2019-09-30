@@ -60,7 +60,7 @@ wpscan shows us the Wordpress instance was detected as running version 5.2.3. Th
 
 If you're interested in reading more about the Cross-Site Host Modification bug in Wordpress 5.2.3 you can read more here:
 
-[Wordpress 5.2.3 Cross-Site Host Modification - Exploit-DB]("https://www.exploit-db.com/exploits/47361")
+[Wordpress 5.2.3 Cross-Site Host Modification - Exploit-DB](https://www.exploit-db.com/exploits/47361)
 
 I didn't see anything else of interest in wpscan, and there were some issues with the links on Mumbai SEO at the time of this writing; however, there is mention of an API accessible on the box.
 
@@ -193,8 +193,8 @@ After running linenum something...peculiar...pops its head up once again.
 
 It took a bit of scrounging around on the web to figure out how to abuse the docker group privileges, but something did pop up that was useful. You can read more about how the docker group can be abused at the following link:
 
-[Docker Linux Post-Install]("https://docs.docker.com/install/linux/linux-postinstall/")
-[Docker Daemon Attack Surface]("https://docs.docker.com/engine/security/security/#docker-daemon-attack-surface")
+[Docker Linux Post-Install](https://docs.docker.com/install/linux/linux-postinstall/)
+[Docker Daemon Attack Surface](https://docs.docker.com/engine/security/security/#docker-daemon-attack-surface)
 
 After much reading, it seems the docker group is essentially the same as giving a user root permissions. This is how the attack is going to work:
 
@@ -247,5 +247,5 @@ Finally, let's grap proof.txt:
 
 This was a fun boot2root, and this probably got long-winded, but w/e. Overall, this was a fun box, and I'm glad I learned some stuff about containers in general while doing it. If you'd like to check out more from AbsoZed you can reach him at the links below:
 
-[AbsoZed's twitter]("https://twitter.com/AbsoZed")
-[AbsoZed's Blog]("https://caffeinatedengineers.com")
+[AbsoZed's twitter](https://twitter.com/AbsoZed)
+[AbsoZed's Blog](https://caffeinatedengineers.com)
