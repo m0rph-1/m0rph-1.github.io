@@ -3,6 +3,8 @@ layout: single
 title: The Story of the Longest Journey To OSCP Ever
 date: 2019-09-29
 classes: wide
+header:
+  teaser: /assets/images/oscp-emblem.png
 tags:
   - General
 ---
