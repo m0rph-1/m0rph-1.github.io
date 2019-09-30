@@ -62,7 +62,7 @@ If you're interested in reading more about the Cross-Site Host Modification bug 
 
 [Wordpress 5.2.3 Cross-Site Host Modification - Exploit-DB](https://www.exploit-db.com/exploits/47361)
 
-I didn't see anything else of interest in wpscan, and there were some issues with the links on Mumbai SEO at the time of this writing; however, there is mention of an API accessible on the box.
+I didn't see anything else of interest in wpscan; however, after checking a blog post within Wordpress there is mention of an API somewhere on the box.
 
 >Title: API Coming Soon!<br>
 >Posted by: absozed<br>
