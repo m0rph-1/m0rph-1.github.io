@@ -235,7 +235,7 @@ int main() {
 
 We then compile this as such:
 ```bash
-gcc suidroot.c -o suidroot
+gcc suidroot.c -o suidroot -static
 ```
 
 Once we have it compiled, we put it in the same directory that we are running the SimpleHTTPServer with, and transfer to Mumbai's root filesystem via wget from the apiuser. Next we'll enable the suid-bit with chmod, and enjoy total root access.
