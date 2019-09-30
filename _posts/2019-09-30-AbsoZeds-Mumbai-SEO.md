@@ -242,11 +242,11 @@ Once we have it compiled, we put it in the same directory that we are running th
 
 ![screenshot](/assets/images/mumbai_root2.PNG)
 
-Finally, let's grap proof.txt:
+Finally, let's grab proof.txt:
 
 ![screenshot](/assets/images/mumbai_proof.PNG)
 
-This was a fun boot2root, and this probably got long-winded, but w/e. Overall, this was a fun box, and I'm glad I learned some stuff about containers in general while doing it. If you'd like to check out more from AbsoZed you can reach him at the links below:
+This was a fun challenge, and this probably got long-winded, but w/e. Overall, this was a neat box, and I'm glad I learned some stuff about containers in general while doing it. If you'd like to check out more from AbsoZed you can reach him at the links below:
 
 +	[AbsoZed's twitter](https://twitter.com/AbsoZed)
 +	[AbsoZed's Blog](https://caffeinatedengineers.com)
