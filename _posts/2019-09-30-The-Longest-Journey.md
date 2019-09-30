@@ -63,7 +63,7 @@ Anyway, that's it. That's all I've got to say. There are plenty of other resourc
 
 As for you - the reader - the important thing now is to recognize where you need to try harder, and then try harder some more. I'll be seeing you again soon.
 
-## Consolidated Resources
+## Consolidated Links
 +	[OSCP-Like VulnHub Machines](https://www.abatchy.com/2017/02/oscp-like-vulnhub-vms)
 +	[PwnOS1.0](https://www.vulnhub.com/entry/pwnos-10,33/)
 +	[IO Wargame](https://io.netgarage.org/)
