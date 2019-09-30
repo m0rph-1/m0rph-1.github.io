@@ -247,5 +247,5 @@ Finally, let's grap proof.txt:
 
 This was a fun boot2root, and this probably got long-winded, but w/e. Overall, this was a fun box, and I'm glad I learned some stuff about containers in general while doing it. If you'd like to check out more from AbsoZed you can reach him at the links below:
 
-[AbsoZed's twitter](https://twitter.com/AbsoZed)
-[AbsoZed's Blog](https://caffeinatedengineers.com)
++	[AbsoZed's twitter](https://twitter.com/AbsoZed)
++	[AbsoZed's Blog](https://caffeinatedengineers.com)
