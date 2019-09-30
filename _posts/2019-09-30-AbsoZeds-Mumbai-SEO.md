@@ -64,8 +64,8 @@ If you're interested in reading more about the Cross-Site Host Modification bug 
 
 I didn't see anything else of interest in wpscan, and there were some issues with the links on Mumbai SEO at the time of this writing; however, there is mention of an API accessible on the box.
 
->Title: API Coming Soon!
->Posted by: absozed
+>Title: API Coming Soon!<br>
+>Posted by: absozed<br>
 >Soon, we'll have the promised API functionality for you to test. In the mean time, feel free to explore our blog here.
 
 We can potentially try to brute force a login for the absozed user; however, without any further knowledge about the box I'm uninterested in attempting that at the moment. Let's move on to the nginx instance.
