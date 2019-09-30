@@ -59,7 +59,9 @@ After proving myself at work, I asked my boss if I could get the company to spon
 
 Once again, I started my exam on a Friday night. I wanted to be absolutely sure that I was in the exact same mental state I normally would be if I were in the labs. Within several hours I had conquered root on three hosts. I took a few 10-15 minute breaks here and there, but all-in-all I went at the exam non-stop. I'm certain I probably dropped my proctor's jaw as I was about ~3 beers in and still crushing the exam thus far. I got a little hungry around 5AM, looking over all of the info I had collected on host #4 and grabbed a banana. I highly recommend you take in something with more sustenance than beers and a banana, but it worked for me. I knew exactly what I had to do on the final host, and popped root on it a few hours later. After celebrating wildly knewing I had enough points to pass, I took one last look at the last exam host. I didn't want to just cut it short, but I was getting nowhere with it. Remembering the various pentest reports I had seen at work, I ended up documenting some concerning issues that I had discovered, and left it at that - as that is what real pentesters do on their reports if they cannot find the easy wins. There are always issues to be found at various levels of severity, and they are worth documenting. 
 
-Anyway, that's it. That's all I've got to say. There are plenty of other resources that will suit some students better for their learning goals than hearing my life story. I've had a lot of time to think about what the most important tool is for taking on this course. I can say, without a doubt, the most crucial skill you could ever need to pass OSCP is perseverance. The important thing now is to recognize where you need to try harder, and then try harder some more. I'll be seeing you again soon.
+Anyway, that's it. That's all I've got to say. There are plenty of other resources that will suit some students better for their learning goals than hearing my life story. I've had a lot of time to think about what the most important tool is for taking on this course. I can say, without a doubt, the most crucial skill you could ever need to pass OSCP is perseverance. I owe a special thank you to one of my best friends, and mentor, Vance. He's been with me since the beginning of this journey, and he has always pushed me to keep testing the limits of what I can achieve. So Vance, if you're reading this, thank you.
+
+As for you - the reader - the important thing now is to recognize where you need to try harder, and then try harder some more. I'll be seeing you again soon.
 
 ## Consolidated Resources
 +	[OSCP-Like VulnHub Machines](https://www.abatchy.com/2017/02/oscp-like-vulnhub-vms)
@@ -68,6 +70,7 @@ Anyway, that's it. That's all I've got to say. There are plenty of other resourc
 +	[OverTheWire – Bandit Wargames](https://overthewire.org/wargames/bandit/)
 +	[g0tmi1k Linux Privesc Guide](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 +	[Fuzzy Windows Privesc Guide](http://www.fuzzysecurity.com/tutorials/16.html)
++ [PayloadsAllTheThings Windows Privesc](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md)
 +	[GNS3](https://gns3.com)
 +	[Microsoft TechNet](https://technet.microsoft.com/en-us/)
 +	[Cisco Learning Network](https://learningnetwork.cisco.com)
