@@ -11,7 +11,7 @@ tags:
   - Pentesting
   - InfoSec
 ---
-
+![](/assets/images/oscp-emblem.png)
 ## From 0 to OSCP In 8 Years Flat
 You read that correct. Start to finish, it took me approximately 8 years to complete OSCP.
 +	How could it have possibly taken that long? 
