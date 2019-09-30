@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "m0rph"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "OSCP \| Network Engineer"
+  bio              : "OSCP &#124; Network Engineer"
   location         : "Missouri, USA"
   email            :
   links:
