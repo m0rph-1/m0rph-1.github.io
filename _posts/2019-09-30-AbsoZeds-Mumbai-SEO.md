@@ -72,7 +72,7 @@ We can potentially try to brute force a login for the absozed user; however, wit
 
 ![screenshot](/assets/images/mumbai_nginx.PNG)
 
-Something very interesting to note here is that there is a .bashrc file and .ssh folder in the web directory, indicating that ngninx is running its web path from the home directory of its user. This isn't a good way to setup a web server, so let's dig into what's in the .bashrc.
+Something very interesting to note here is that there is a .bashrc file and .ssh folder in the web directory, indicating that nginx is running its web path from the home directory of its user. This isn't a good way to setup a web server, so let's dig into what's in the .bashrc.
 
 ```bash
 wget http://10.10.10.13:8000/.bashrc
