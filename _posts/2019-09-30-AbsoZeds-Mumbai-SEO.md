@@ -98,7 +98,7 @@ Let's run the keywords.py script against the Wordpress instance and see if somet
 
 ![screenshot](/assets/images/mumbai_keywords2.PNG)
 
-TL;DR this script basically just scrapes a given page, and stores words into a list then counts how many times each word occurs. Not particularly useful, but let's see what happens if we give the test.php a post request as query=URL.
+TL;DR this script basically just scrapes a given page, and stores words into a list then counts how many times each word occurs. Not particularly useful in itself, but let's see what happens if we give the test.php a post request as query=URL.
 
 ![screenshot](/assets/images/mumbai_testphp2.PNG)
 
