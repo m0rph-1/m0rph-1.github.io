@@ -47,6 +47,13 @@ We don't have open web directory permissions on a few of these; however, we may 
 
 ![screenshot](/assets/images/mumbai_drupal.PNG)
 
+Let's dive in a little deeper on Wordpress. We'll use the following command to do some initial enum:
+```bash
+wpscan --url http://10.10.10.13/wordpress/
+```
+
+![screenshot](/assets/images/mumbai_wordpress.PNG)
+
 wpscan shows us the Wordpress instance was detected as running version 5.2.3. There is an exploit available for this version of Wordpress, but it doesn't appear to be of any interest considering the nature of the vulnerability. 
 
 ![screenshot](/assets/images/wordpress523_cshm.PNG)
