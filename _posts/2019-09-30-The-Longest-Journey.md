@@ -7,6 +7,9 @@ header:
   teaser: /assets/images/oscp-emblem.png
 tags:
   - General
+  - OSCP
+  - Pentesting
+  - InfoSec
 ---
 
 ## From 0 to OSCP In 8 Years Flat
