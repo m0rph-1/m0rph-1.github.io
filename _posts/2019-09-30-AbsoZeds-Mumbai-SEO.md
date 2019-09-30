@@ -19,7 +19,7 @@ Most interesting in the port scan below in terms of risk is what appears to be a
 nmap -sC -sV 10.10.10.13
 ```
 
-![screenshot](assets/images/mumbai_nmap.PNG)
+![screenshot](/assets/images/mumbai_nmap.PNG)
 
 Quick login to the FTP service shows there is a Note. I'm not particularly concerned with the mode of transfer for such a small file, so we'll just get it by logging in as ftp:ftp and concatenate it to the terminal. 
 
