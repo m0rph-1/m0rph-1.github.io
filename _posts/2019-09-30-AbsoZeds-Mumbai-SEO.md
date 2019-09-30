@@ -127,9 +127,9 @@ So what do we need to do? We can keep fuzzing for escape sequences, or we can mo
 
 ![screenshot](/assets/images/mumbai_testphprce.PNG)
 
-Excellent! We have RCE. So now all we need to do is get a shell. Shameless self-plug, we'll use revshellgen to autogenerate a quit reverse shell command on the server and pop the box. Typically I try to stick to port 80, 443, or 8080 for reverse shells as these ports are commonly allowed outbound through firewalls. That isn't an end-all-be-all solution, but for the majority of challenges that seems to work in the event a firewall or some other ACL is in place. However, keep in mind we will be unable to pass a command to test.php that has the "&" character in the query, so we will have to find one that doesn't. 
+Excellent! We have RCE. So now all we need to do is get a shell. Typically I try to stick to port 80, 443, or 8080 for reverse shells as these ports are commonly allowed outbound through firewalls. That isn't an end-all-be-all solution, but for the majority of challenges that seems to work in the event a firewall or some other ACL is in place. However, keep in mind we will be unable to pass a command to test.php that has the "&" character in the query, so we will have to drop an artifact of some sort. 
 
-In instances like this one, normally I would like to just live off the land and use binaries already present on a system to achieve a reverse shell; however, the replacement of the "&" character makes it very cumbersome to do that as we would need it to redirect stdin & stdout over the same file descriptors for stability. In this case, I will wget the pentestmonkey script with changes to the IP and PORT variables, and simply "php shell.php" for the shell.  
+In instances like this one, normally I would like to just live off the land and use binaries already present on a system to achieve a reverse shell; however, the replacement of the "&" character makes it very cumbersome to do that as we would need it to redirect stdin & stdout over the same file descriptors for stability. In this case, I will wget the pentestmonkey php-reverse-shell script with changes to the IP and PORT variables, and simply run "php shell.php" for the shell.  
 
 In one terminal, host shell.php after modifications:
 ```bash
