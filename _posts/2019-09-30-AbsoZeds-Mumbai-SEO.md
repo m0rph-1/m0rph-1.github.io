@@ -24,7 +24,7 @@ nmap -sC -sV 10.10.10.13
 Quick login to the FTP service shows there is a Note. I'm not particularly concerned with the mode of transfer for such a small file, so we'll just get it by logging in as ftp:ftp and concatenate it to the terminal. 
 
 
-![screenshot](/assets/images/mumbai_ftp.png)
+![screenshot](/assets/images/mumbai_ftp.PNG)
 
 Looking at the note we see an intersting quip from the admin concerning the use of Docker for the web applications on the box. 
 
