@@ -106,13 +106,14 @@ Very interesting. So it seems that the test.php script is a wrapper for passing 
 
 ![screenshot](/assets/images/mumbai_testphp3.PNG)
 
-No beans. :( But fear not, as we have a couple of other tricks up our sleeves before moving onto some other attack vector. As it stands, it seems there is also some str_replace() or preg_replace() going on with the php script. It should look more or less something like this on the backend in pseudcode:
+No beans. :( But fear not, as we have a couple of other tricks up our sleeves before moving onto some other attack vector. As it stands, it seems there is also some str_replace() or preg_replace() or other kind of filtering going on with the php script. It should look more or less something like this on the backend in pseudcode:
 
 ```php
 <?php
 $query = $_POST["query"];
 if we receive a $_POST["query"] {
-	check for "&" in the request and replace it with nothing if it's found;
+	check for "&" in the request and replace it with a null value if it's found;
+	echo "Site Keywords and Counts:";
 	system("python3 keywords.py --query $query");
 }
 else {
