@@ -26,7 +26,7 @@ Quick login to the FTP service shows there is a Note. I'm not particularly conce
 
 ![screenshot](/assets/images/mumbai_ftp.PNG)
 
-Looking at the note we see an intersting quip from the admin concerning the use of Docker for the web applications on the box. 
+Looking at the note we see an interesting quip from the admin concerning the use of Docker for the web applications on the box. 
 
 >TODO:
 >
