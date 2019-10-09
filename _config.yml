@@ -110,7 +110,7 @@ author:
   name             : "m0rph"
   avatar           : "/assets/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "OSCP &#124; Network Engineer"
-  location         : "Missouri, USA"
+  location         : "USA"
   email            :
   links:
     - label: "Email"
