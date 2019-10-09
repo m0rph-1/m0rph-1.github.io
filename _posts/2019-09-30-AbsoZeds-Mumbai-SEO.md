@@ -4,9 +4,10 @@ title: Mumbai SEO Write-Up
 date: 2019-09-29
 classes: wide
 tags:
-  - General
+  - VulnHub
   - Pentesting
   - InfoSec
+  - Writeup
 ---
 
 ## Background
