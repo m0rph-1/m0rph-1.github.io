@@ -67,7 +67,7 @@ We know this container has a Docker AND a MySQL instance, we have some php strea
 
 Looking further down we also see PHP is on version 7.2.7, and URL includes are allowed. This is very exciting to see, and we'll keep that in mind for later. Since we already know there is a MySQL instance on this container, let's try some injection attacks against the login page. It's better to have done our homework beforehand, rather than blindly trying to fuzz the login with various attacks. We could have wasted A LOT of time trying to brute-force.
 
-![screenshot](/assets/images/safeharbor/bank_sql1.PNG)
+![screenshot](/assets/images/safeharbor/bank_sql.PNG)
 
 ## SQL Injection
 
