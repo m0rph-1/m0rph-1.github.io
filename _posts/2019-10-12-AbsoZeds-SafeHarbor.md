@@ -319,11 +319,7 @@ This container is more or less the same as the first container we got shell on, 
 
 ![screenshot](/assets/images/safeharbor/container2_wget.PNG)
 
-Once that's done, hop back over the metasploit, and use the exploit/multi/handler module once again. We'll execute our reverse shell binary through the exploit shell, and catch it:
-
-![screenshot](/assets/images/safeharbor/container2_stable.PNG)
-
-I made some minor mistakes while writing this and lost a couple of shells on the way, so that is why this one is now number 4. Anyway, we now have a stable shell, so let's do some poking around with linenum again:
+Once that's done, hop back over the metasploit, and use the exploit/multi/handler module once again. We'll execute our reverse shell binary through the exploit shell, and catch it with metasploit. I made some minor mistakes while writing this and lost a couple of shells on the way, so that is why this one is now number 4. Anyway, we now have a stable shell, so let's do some poking around with linenum again:
 
 ```
 meterpreter> shell
