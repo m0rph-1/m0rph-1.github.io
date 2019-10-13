@@ -1,7 +1,7 @@
 ---
 layout: single
 title: SafeHarbor Write-Up
-date: 2019-09-29
+date: 2019-10-12
 classes: wide
 tags:
   - VulnHub
