@@ -419,7 +419,7 @@ We don't have to set Proxies, because Metasploit already knows how to communicat
 
 ![screenshot](/assets/images/safeharbor/docker_root.PNG)
 
-w00t w00t g0t d4t r00t! Let's stablized the shell and get the flag:
+w00t w00t g0t d4t r00t! Let's stablize the shell and get the flag:
 
 ![screenshot](/assets/images/safeharbor/flag.PNG)
 
