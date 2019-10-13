@@ -96,7 +96,7 @@ Now that we're in the bank dashboard, there are a number of pages to look at. In
 
 ![screenshot](/assets/images/safeharbor/bank_rfi1.PNG)
 
-This isn't a total loss as we got a blank page rather than being redirected back to the dashboard. Let's try using some of the PHP streams we used earlier and see if we can get some more info.
+This isn't a total loss as we got a blank page rather than being redirected back to the dashboard. Let's try using some of the PHP streams we saw earlier and see if we can get some more info.
 
 ![screenshot](/assets/images/safeharbor/bank_rfi2.PNG)
 
