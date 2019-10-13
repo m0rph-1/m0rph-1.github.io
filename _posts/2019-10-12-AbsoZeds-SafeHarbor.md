@@ -9,7 +9,6 @@ tags:
   - InfoSec
   - Writeup
 ---
-## Background
 
 [SafeHarbor](https://www.vulnhub.com/entry/safeharbor-1,377/) is another fantastic box by [AbsoZed](https://twitter.com/AbsoZed). This time we're faced with a machine that is designed to emulate a small banking network. First we're faced with a semi-complicated file inclusion vulnerability, and later there are some relatively new technologies we'll be going up against. In terms of difficulty I'd rate it 7/10 because there is a very annoying pivot to overcome, and getting true root will require us to pay extra attention during post-exploitation. Let's jump in!
 
