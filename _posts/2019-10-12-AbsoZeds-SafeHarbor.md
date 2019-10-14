@@ -208,7 +208,7 @@ We're unable to run ping on the container as it requires root permissions, and w
 #!/bin/bash
 for host in $(seq 1 254);do
 	echo "[+] Scanning host 172.20.0.$host"
-	proxychains nc -w 1 -vz 172.20.0.$host $port 2>&1 | grep open
+	proxychains nc -w 1 -vz 172.20.0.$host 80 2>&1 | grep open
 done
 ```
 
