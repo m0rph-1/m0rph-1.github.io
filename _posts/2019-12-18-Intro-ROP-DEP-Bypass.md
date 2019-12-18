@@ -88,7 +88,7 @@ The other roadblock to exploitation (that we will be defeating today) is DEP. DE
 0x1111111B retn
 ```
 
-These are called "ROP gadgets." Multiple gadgets makeup a "chain." The goal of a "rop chain" is to organize instructions that will do what we want, then "return," to the next gadget of our "chain." This is probably the most gentle explanation you will ever read about this subject, and it gets FAR more complicated than my quick summary. A classic example of a rop gadget is the trusted old "pop/pop/ret" technique used in [SEH](https://m0rph-1.github.io/ThanksGiving-Exploit/) exploits.
+These are called "ROP gadgets." Multiple gadgets make up a "chain." The goal of a "rop chain" is to organize instructions that will do what we want, then "return," to the next gadget of our "chain." This is probably the most gentle explanation you will ever read about this subject, and it gets FAR more complicated than my quick summary. A classic example of a rop gadget is the trusted old "pop/pop/ret" technique used in [SEH](https://m0rph-1.github.io/ThanksGiving-Exploit/) exploits.
 
 ```
 0x1111111A pop esi
