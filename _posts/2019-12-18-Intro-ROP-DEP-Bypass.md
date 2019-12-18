@@ -201,7 +201,7 @@ First in the sequence of the ROP chain, it pops a known pointer to VirtualAlloc(
 1. Allocates a new memory region
 2. Marks the region excepted from DEP policy
 3. Stores location of shellcode into EAX
-4. Returns to the location of shellcode
+4. Returns to the new location of the shellcode from EAX
 
 This is a very quick summary, and like I said, there are parts of this ROP chain that confuse me, so I may have messed up my analysis of it. 
 
