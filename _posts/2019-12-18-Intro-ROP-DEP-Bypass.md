@@ -4,6 +4,7 @@ title: Intro to ROP and Bypassing DEP For Mortals
 date: 2019-11-29
 classes: wide
 tags:
+  - Exploit-Development
   - Vulnerability
   - Pentesting
   - InfoSec
@@ -428,5 +429,6 @@ Never stop having fun, and never stop learning! Cheers! Thank you x00pwn for onc
 
 References:
 
++ [My VulnServer Exploits](https://github.com/m0rph-1/vulnserver)
 +	[x00pwn](https://github.com/FULLSHADE)
 +	[InfoSec Prep Discord](https://discordapp.com/invite/RRgKaep)
