@@ -96,7 +96,7 @@ These are called "ROP gadgets." Multiple gadgets make up a "chain." The goal of 
 0x1111111C retn
 ```
 
-This gadget "pops" two words off of the stack, and returns execution control to the memory located at the 2nd address (address of the next SEH). Let's observe some interesting happens on VulnServer after enabling DEP.
+This gadget "pops" two words off of the stack, and returns execution control to the memory located at the 2nd address (address of the next SEH). Let's observe some interesting happenings on VulnServer after enabling DEP.
 
 ## Observing DEP In Action
 
