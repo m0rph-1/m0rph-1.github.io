@@ -416,7 +416,7 @@ The answer is right after every gadget in the chain:
 
 >  ** REBASED ** ASLR 
 
-All kernel modules' base addresses will change, and their memory regions will be randomized upon every reboot. There are some options to defeat these exploit mitigations:
+All kernel modules' base addresses will change, and their memory regions will be randomized upon every reboot. There are some options to potentially defeat ASLR:
 
 1. Obtain an overwrite of non-Rebased and/or non-ASLR memory regions
 2. Build a rop chain from a binary or library that isn't rebased or compiled with ASLR.
