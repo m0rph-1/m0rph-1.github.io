@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Intro to ROP and Bypassing DEP For Mortals
+title: A Gentle Intro to ROP and Bypassing DEP
 date: 2019-11-29
 classes: wide
 tags:
