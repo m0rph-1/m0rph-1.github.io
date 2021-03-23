@@ -67,7 +67,7 @@ It is unbelievable that there are people as intelligent and talented as Morten i
 
 # eCPPT
 
-VetSec was very generous and sponsored me to take the eCPPT certification by eLearnSecurity. I've prepared a write-up on my experiences going through the Penetration Testing Professional course for VetSec, and hopefully they make that available for all of you to read in the near future! I wish I could say more on this matter, but out of respect to my agreement with VetSec, I'm holding off until they've published my write-up for them. If you would like a little bit of insight, you can see my chat with InfiniteLogins on certifications, and maybe get a little better understanding if this one is right for you:
+[VetSec](https://veteransec.com/) was very generous, and sponsored me to take the eCPPT certification by eLearnSecurity. I've prepared a write-up on my experiences going through the Penetration Testing Professional course for VetSec, and hopefully they make that available for all of you to read in the near future! I wish I could say more on this matter, but out of respect to my agreement with VetSec, I'm holding off until they've published my write-up for them. If you would like a little bit of insight, you can see my chat with InfiniteLogins on certifications, and maybe get a little better understanding if this one is right for you:
 
 [![Conquering OSCP, OSCE, and eCPPT with Cody](https://img.youtube.com/vi/gcwO-KyxnRU/0.jpg)](https://www.youtube.com/watch?v=gcwO-KyxnRU)
 
