@@ -54,13 +54,14 @@ Some downsides to 2020: I got sick twice, lost a family member, and I'm no longe
 
 Shortly after taking the red team job, I took the OSCE exam, and passed on the first try. I could go into a whole blog post about that experience, but if you would like to see the highlights, I recommend my Youtube video on this subject:
 
-![Offensive Security - OSCE Review](https://www.youtube.com/watch?v=50aEoxwoCRs)
+[![Offensive Security - OSCE Review](https://img.youtube.com/vi/50aEoxwoCRs/0.jpg)](https://www.youtube.com/watch?v=50aEoxwoCRs)
+
 
 In my honest opinion (maybe a little biased), this is the only true review of the Cracking The Perimeter course, in video format, on the internet. There are a number of others, but they don't really explain what the course is about. The three new certifications offered by Offensive Security (OSWE, OSEP, and OSED) are on my hit list for 2021/2022 so I can reclaim my legitimatacy as an OSCE. If I can endure the pain and suffering beyond that, I may make an attempt at OSEE someday, but we have to cover a lot of ground before even thinking about doing that. 
 
 If you would like more information on what skills are needed to develop your skillsets into advanced territory, I kindly refer you to my video with one of Offensive Security's course authors - Morten Schenk:
 
-![Interview With A Pentester - Morten Schenk](https://www.youtube.com/watch?v=-76d3fWduik)
+[![Interview With A Pentester - Morten Schenk](https://img.youtube.com/vi/-76d3fWduik/0.jpg)](https://www.youtube.com/watch?v=-76d3fWduik)
 
 It is unbelievable that there are people as intelligent and talented as Morten in this world. He's a wonderful person, and I'm glad to interact with him frequently online to pick his brain for knowledge. This is kind of the point with this blog post, because even beyond people like Morten, I've interviewed so many others that have that same level of intelligence and tenacity for progress. 
 
@@ -68,7 +69,7 @@ It is unbelievable that there are people as intelligent and talented as Morten i
 
 VetSec was very generous and sponsored me to take the eCPPT certification by eLearnSecurity. I've prepared a write-up on my experiences going through the Penetration Testing Professional course for VetSec, and hopefully they make that available for all of you to read in the near future! I wish I could say more on this matter, but out of respect to my agreement with VetSec, I'm holding off until they've published my write-up for them. If you would like a little bit of insight, you can see my chat with InfiniteLogins on certifications, and maybe get a little better understanding if this one is right for you:
 
-![Conquering OSCP, OSCE, and eCPPT with Cody](https://www.youtube.com/watch?v=gcwO-KyxnRU)
+[![Conquering OSCP, OSCE, and eCPPT with Cody](https://img.youtube.com/vi/gcwO-KyxnRU/0.jpg)](https://www.youtube.com/watch?v=gcwO-KyxnRU)
 
 # CRTO
 
