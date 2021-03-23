@@ -34,9 +34,7 @@ It's a really bizarre feeling when someone you look up to addresses you as a pee
 
 Veterans have a way of talking to each other that not a lot of people understand, but there's a certain directness and urgency to it that we all understand. He was right. I was in a miserable spot in my life, working three roles under one, in a relationship with my ex-fiance that was all but already over, and still wondering if I was good enough to work in this field. 
 
-Pro tip: if you're at a point where you're disabling the safety features of a Ford Focus at a conference...you should have been in the field a long time ago:
-
-![](/assets/videos/car_hack.mp4)
+Pro tip: if you're at a point where you're disabling the safety features of a Ford Focus at a conference...you should have been in the field a long time ago.
 
 Sometimes that external validation is needed. With all said and done, I left WWHF with some new knowledge, friends, and perspective. If you're wondering if you're good enough for the field...the answer is yes. So, stop what you're doing, and get into the field! So to Jake, Heath, and Amber...thank you all for the wonderful time that night, and I hope to run into all of you again someday!
 
