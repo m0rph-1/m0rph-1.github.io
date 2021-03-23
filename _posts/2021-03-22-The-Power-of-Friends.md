@@ -50,7 +50,7 @@ With all of that, 2020 also brought yet another zero-day! This time documented u
 
 Some downsides to 2020: I got sick twice, lost a family member, and I'm no longer with my ex-fiance. Aside from that, 2020 has treated me very well on the professional development front. I've made so many new friends, have heard so many interesting stories through doing interviews for Youtube, and have seen the direct impact of sharing my knowledge both at work and online.
 
-# Road To OSCEv2
+# Road To OSCEv3
 
 Shortly after taking the red team job, I took the OSCE exam, and passed on the first try. I could go into a whole blog post about that experience, but if you would like to see the highlights, I recommend my Youtube video on this subject:
 
