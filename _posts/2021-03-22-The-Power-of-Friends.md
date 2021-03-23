@@ -73,7 +73,7 @@ VetSec was very generous and sponsored me to take the eCPPT certification by eLe
 
 # CRTO
 
-Recently, I've been grinding away on my knowledge of Cobalt Strike, and penetration testing within Active Directory environments. I want to hold off on doing a full-blown review of this course until I've had a chance to take the exam, but overall...it has been a completely worthwhile experience. [Rasta Mouse]https://twitter.com/_RastaMouse) has done an excellent job with this course, and I would recommend it to anybody wanting to round-out their skillsets. 
+Recently, I've been grinding away on my knowledge of Cobalt Strike, and penetration testing within Active Directory environments. I want to hold off on doing a full-blown review of this course until I've had a chance to take the exam, but overall...it has been a completely worthwhile experience. [Rasta Mouse](https://twitter.com/_RastaMouse) has done an excellent job with this course, and I would recommend it to anybody wanting to round-out their skillsets. 
 
 # The Importance of Making Friends
 
