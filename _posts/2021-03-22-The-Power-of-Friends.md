@@ -26,7 +26,7 @@ So after awkwardly walking around aimlessly, I got in line for a beer when Amber
 
 ![](/assets/images/friendship/thecybermentor.jpg)
 
-The best advice I can give anyone that meets someone they look up to: don't put them on pedastal. The people we look up to are just that - people. I think telling myself to just keep it nice and casual is what led to having a wonderful 2-3 hours with the three of them, and looking back, I wouldn't have traded that experience for anything else. This specific moment, hanging out with the three of them, also became a turning point in my career. 
+The best advice I can give anyone that meets someone they look up to: don't put them on a pedastal. The people we look up to are just that - people. I think telling myself to just keep it nice and casual is what led to having a wonderful 2-3 hours with the three of them, and looking back, I wouldn't have traded that experience for anything else. This specific moment, hanging out with the three of them, also became a turning point in my career. 
 
 # "Stop What You're Doing, and Get Into The Field"
 
