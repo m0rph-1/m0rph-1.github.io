@@ -181,7 +181,7 @@ Once it's finished, let's take a quick look at the ROP chain created, and take a
 
 ![screenshot](/assets/images/vulnserverdep/mona_rop_virtualalloc.PNG)
 
-To the layman, this is a lot of information to take in. Even for me, having already gone through the SLAE course by Pentester Academy, there are some confusing operations going on. Let's take a look at the MSDN for VirtualAlloc() and get a better understanding of how it relates to DEP.
+To the layman, this is a lot of information to take in. Even for me, having already gone through the SLAE course by Pentester Academy, there are some confusing operations going on. Let's take a look at the MSDN for `VirtualAlloc` and get a better understanding of how it relates to DEP.
 
 > Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process. Memory allocated by this function is automatically initialized to zero.
 
@@ -196,7 +196,22 @@ LPVOID VirtualAlloc(
 
 Source: [MSDN](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc)
 
-First in the sequence of the ROP chain, it pops a known pointer to VirtualAlloc() from the Import Address Table into EAX and returns. Remember, every gadget within the ROP chain needs to specify a retn opcode to return control back to the subsequent gadgets in the chain. It then moves a double word of the VirtualAlloc() pointer into EAX, and exchanges positions with ESI (source). It then changes the stack frame to VirtualAlloc(), and assigns some values as arguments with the following heuristics:
+Examining VirtualProtect (another commonly abused function to bypass DEP), we can see there are some similarities in capabilities between these two functions:
+
+> Changes the protection on a region of committed pages in the virtual address space of the calling process.
+
+```c++
+BOOL VirtualProtect(
+  LPVOID lpAddress,
+  SIZE_T dwSize,
+  DWORD  flNewProtect,
+  PDWORD lpflOldProtect
+);
+```
+
+Source: [MSDN](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualprotect)
+
+First in the sequence of our ROP chain above, it acquires the location of VirtualAlloc() from the Import Address Table of `sechost.dll`, and then returns. Remember, every gadget within the ROP chain needs to specify a retn opcode to return control back to the subsequent gadgets in the chain. After some crafty calculations for arguments, the chain then assigns those arguments for `VirtualAlloc`, and calls with the following heuristics:
 
 1. Allocates a new memory region
 2. Marks the region excepted from DEP policy
@@ -207,7 +222,7 @@ This is a very quick summary, and like I said, there are parts of this ROP chain
 
 A more detailed analysis can be found here: [Corelan Function Calls](https://www.corelan.be/index.php/2010/06/16/exploit-writing-tutorial-part-10-chaining-dep-with-rop-the-rubikstm-cube/#functioncalls)
 
-Let's copy/paste this into the skeleton exploit, change the C's to "\xCC" to instantiate a debugger interrupt, and see what happens:
+Let's generate another ROP chain, change the C's to "\xCC" to instantiate a debugger interrupt, and see what happens (do note, this new chain used leverages `VirtualProtect` to bypass DEP):
 
 ```python
 #!/usr/bin/env python
